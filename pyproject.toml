@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "process-mining"
+version = "0.1.0"
+description = "A project for process mining and trace clustering"
+authors = ["Lizandro Raposo <raposolizandro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+
+# Data Manipulation
+pandas = "^2.2.2"
+numpy = "^1.25.2"
+
+# Visualization
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+
+# Machine Learning and Clustering
+scikit-learn = "^1.5.1"
+
+# Process Mining
+pm4py = "^2.7.12.4"
+
+# Advanced Mathematical Operations
+scipy = "^1.11.2"
+
+[tool.poetry.group.dev.dependencies]
+# Development and Interactive Environments
+ipykernel = "^6.29.5"
+tabulate = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
